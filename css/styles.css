@@ -1,0 +1,136 @@
+body {
+  font-size: 56px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 107.143%;
+  letter-spacing: 2%;
+  color: ##2e2f42;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #ffffff;
+  font-size: 56px;
+}
+.page-title {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+}
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+p {
+  color: #434455;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-align: left;
+}
+
+.page-nav .link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.page-nav .link:hover {
+  color: #404bbf;
+}
+
+.logo {
+  color: #2e2f42;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.web-logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+address a {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+address a:hover,
+address a:focus {
+  color: #404bbf;
+}
+
+button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+}
+button:hover {
+  background-color: #404bbf;
+}
+
+.page-team p {
+  text-align: center;
+}
+.section-portfolio p {
+  text-align: center;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+footer .logo {
+  color: #ffffff;
+}
+
+footer p {
+  color: #f4f4fd;
+}
+
+ul {
+  list-style-type: none;
+}
