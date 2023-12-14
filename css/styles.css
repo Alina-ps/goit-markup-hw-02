@@ -13,40 +13,6 @@ body {
   background-color: #ffffff;
   font-size: 56px;
 }
-.page-title {
-  color: #ffffff;
-  background-color: #2e2f42;
-  font-weight: 700;
-  font-size: 56px;
-}
-
-.section-team {
-  background-color: #f4f4fd;
-}
-
-.page-title-main {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 56px;
-  text-align: center;
-}
-
-.heading-third {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.paragraf {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  text-align: center;
-}
-
 .page-nav .link {
   font-size: 16px;
   font-weight: 500;
@@ -115,6 +81,37 @@ body {
   background-color: #404bbf;
 }
 
+.page-title {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+}
+.page-title-main {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+}
+
+.heading-third {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.paragraf {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
 .footer {
   background-color: #2e2f42;
 }
