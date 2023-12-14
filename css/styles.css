@@ -83,6 +83,9 @@ body {
   text-transform: uppercase;
 }
 
+.address {
+  font-style: normal;
+}
 .address .link {
   color: #434455;
   font-size: 16px;
@@ -141,5 +144,9 @@ body {
 }
 
 .setion-portfolio {
+  background-color: #ffffff;
+}
+
+.section-portfolio .list-img {
   background-color: #ffffff;
 }
