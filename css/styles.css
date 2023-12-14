@@ -2,8 +2,8 @@ body {
   font-size: 56px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  line-height: 107.143%;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
   color: ##2e2f42;
   font-weight: 400;
   background-color: #ffffff;
@@ -32,18 +32,16 @@ h1 {
 }
 
 h3 {
-  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
 h2 {
-  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -51,17 +49,16 @@ h2 {
 p {
   color: #434455;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-align: left;
 }
 
 .page-nav .link {
-  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -70,7 +67,6 @@ p {
 }
 
 .logo {
-  color: #2e2f42;
   text-transform: capitalize;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -90,7 +86,7 @@ address a {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
 }
@@ -105,8 +101,9 @@ button {
   background-color: #4d5ae5;
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 button:hover {
   background-color: #404bbf;
