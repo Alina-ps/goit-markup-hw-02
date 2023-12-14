@@ -35,7 +35,7 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
@@ -83,7 +83,7 @@ body {
   text-transform: uppercase;
 }
 
-.address a {
+.address .link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -93,8 +93,8 @@ body {
   font-style: normal;
 }
 
-.address a:hover,
-.address a:focus {
+.address .link:hover,
+.address .link:focus {
   color: #404bbf;
 }
 
@@ -112,13 +112,6 @@ body {
   background-color: #404bbf;
 }
 
-.page-team p {
-  text-align: center;
-}
-.section-portfolio p {
-  text-align: center;
-}
-
 .footer {
   background-color: #2e2f42;
 }
@@ -128,22 +121,25 @@ body {
 }
 
 .footer .studio-logo {
-  color: #ffffff;
-}
-
-.footer p {
   color: #f4f4fd;
 }
 
-ul {
+.footer .paragraf {
+  color: #f4f4fd;
+}
+
+.list {
   list-style-type: none;
 }
-.section-features-main,
-.section-team-main {
+.heading-second {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.setion-portfolio {
+  background-color: #ffffff;
 }
