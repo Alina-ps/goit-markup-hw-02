@@ -127,9 +127,10 @@ body {
   background-color: #f4f4fd;
 }
 
-.setion-portfolio .list .list-img {
+.portfolio-list {
   background-color: #ffffff;
   text-align: center;
+  list-style-type: none;
 }
 
 .page-footer {
