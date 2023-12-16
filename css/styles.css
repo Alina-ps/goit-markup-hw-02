@@ -127,17 +127,9 @@ body {
   background-color: #f4f4fd;
 }
 
-.setion-portfolio {
+.setion-portfolio .list .list-img {
   background-color: #ffffff;
   text-align: center;
-}
-
-.section-portfolio .list-img {
-  background-color: #ffffff;
-}
-
-.section-portfolio .list {
-  background-color: #ffffff;
 }
 
 .page-footer {
