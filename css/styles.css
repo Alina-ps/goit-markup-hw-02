@@ -9,7 +9,7 @@ body {
   background-color: #ffffff;
 }
 
-.header {
+.page-header {
   background-color: #ffffff;
   font-size: 56px;
 }
@@ -49,10 +49,14 @@ body {
   text-transform: uppercase;
 }
 
-.address {
+.list {
+  list-style-type: none;
+}
+
+.page-address {
   font-style: normal;
 }
-.address .link {
+.page-address .link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -62,23 +66,9 @@ body {
   font-style: normal;
 }
 
-.address .link:hover,
-.address .link:focus {
+.page-address .link:hover,
+.page-address .link:focus {
   color: #404bbf;
-}
-
-.button {
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  cursor: pointer;
-}
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
 }
 
 .page-title {
@@ -87,11 +77,35 @@ body {
   font-weight: 700;
   font-size: 56px;
 }
-.page-title-main {
+
+.heading-first {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   text-align: center;
+}
+
+.page-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.page-button:hover,
+.page-button:focus {
+  background-color: #404bbf;
+}
+
+.heading-second {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .heading-third {
@@ -112,38 +126,28 @@ body {
 .section-team {
   background-color: #f4f4fd;
 }
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer .logo {
-  color: #4d5ae5;
-}
-
-.footer .studio-logo {
-  color: #f4f4fd;
-}
-
-.footer .paragraf {
-  color: #f4f4fd;
-}
-
-.list {
-  list-style-type: none;
-}
-.heading-second {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
 
 .setion-portfolio {
   background-color: #ffffff;
+  text-align: center;
 }
 
-.section-portfolio .list-img {
+.section-portfolio .list {
   background-color: #ffffff;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.page-footer .logo {
+  color: #4d5ae5;
+}
+
+.page-footer .studio-logo {
+  color: #f4f4fd;
+}
+
+.page-footer .paragraf {
+  color: #f4f4fd;
 }
