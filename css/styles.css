@@ -127,8 +127,11 @@ body {
   background-color: #f4f4fd;
 }
 
+.section-portfolio {
+  background-color: #f4f4fd;
+}
+
 .portfolio-list {
-  background-color: #ffffff;
   text-align: center;
   list-style-type: none;
 }
